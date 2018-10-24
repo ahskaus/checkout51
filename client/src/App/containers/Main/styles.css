@@ -1,0 +1,37 @@
+
+
+.table {
+	display: table;
+	width: 100%;
+}
+
+.table-body-row {
+	display: table-row;
+}
+
+.table-cell, .table-header-cell {
+	display: table-cell;
+	padding: 3px 10px;
+	border: 1px solid #999999;
+}
+
+.asc {
+	background-color: blue;
+	color: white;
+}
+
+.desc {
+	background-color: red;
+	color: white;
+}
+
+.table-header {
+	display: table-header-group;
+	background-color: #ddd;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.table-body {
+	display: table-row-group;
+}
